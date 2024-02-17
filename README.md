@@ -1,7 +1,7 @@
 # named-colors
 
-[![PyPI - Version](https://img.shields.io/pypi/v/named-colors.svg)](https://pypi.org/project/named-colors)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/named-colors.svg)](https://pypi.org/project/named-colors)
+[![PyPI - Version](https://img.shields.io/pypi/v/namecolors.svg)](https://pypi.org/project/namecolors)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/namecolors.svg)](https://pypi.org/project/namecolors)
 
 -----
 
@@ -13,9 +13,9 @@
 ## Installation
 
 ```console
-pip install named-colors
+pip install namecolors
 ```
 
 ## License
 
-`named-colors` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
+`namecolors` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
