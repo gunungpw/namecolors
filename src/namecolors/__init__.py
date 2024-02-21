@@ -10,3 +10,14 @@ from .name import (
 )
 
 from .colors import NamedColor
+from .data import get_data
+
+__all__ = [
+    "NamedColor",
+    "rgb_to_name",
+    "hex_to_name",
+    "hsl_to_name",
+    "lab_to_name",
+]
+
+get_data.download_json_data()
