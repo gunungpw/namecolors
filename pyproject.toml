@@ -1,9 +1,9 @@
 [project]
 name = "namecolors"
-version = "0.1.0"
+version = "0.1.2"
 description = "Get your colors name"
 authors = [{ name = "gunungpw", email = "gunungpambudiw@gmail.com" }]
-dependencies = []
+dependencies = ["urllib3>=2.2.1"]
 readme = "README.md"
 requires-python = ">= 3.8"
 classifiers = [
@@ -15,18 +15,21 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 
-[project.scripts]
-
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.rye]
 managed = true
-dev-dependencies = ["urllib3"]
+dev-dependencies = []
 
 [tool.hatch.metadata]
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/namecolors"]
+exclude = ["src/namecolors/data/*.json"]
+
+[tool.hatch.build.targets.sdist]
+packages = ["src/namecolors"]
+exclude = ["src/namecolors/data/*.json"]

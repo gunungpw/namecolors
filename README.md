@@ -1,4 +1,4 @@
-# named-colors
+# namedcolors
 
 [![PyPI - Version](https://img.shields.io/pypi/v/namecolors.svg)](https://pypi.org/project/namecolors)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/namecolors.svg)](https://pypi.org/project/namecolors)
